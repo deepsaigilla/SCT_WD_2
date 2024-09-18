@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 320px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .stopwatch {
+    margin-top: 20px;
+  }
+  
+  #display {
+    font-size: 48px;
+    color: white;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-top: 5px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  #lapList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  #lapList li {
+    background-color: #ecf0f1;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #clearLapBtn {
+    background-color: #e74c3c;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  #clearLapBtn:hover {
+    background-color: #c0392b;
+  }
+  
+  h3 {
+    margin-top: 20px;
+    color: #555;
+  }
+  
